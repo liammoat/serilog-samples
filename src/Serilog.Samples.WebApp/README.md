@@ -23,7 +23,7 @@
 
 3. Configure web host to ```UseSerilog``` ([reference](./Program.cs#L29-L33)):
 
-    ```bash
+    ```c#
     .UseSerilog((hostingContext, services, loggerConfiguration) => loggerConfiguration
         .Enrich.FromLogContext()
         .WriteTo.File(new CompactJsonFormatter(), "logs\\myapp.json", rollingInterval: RollingInterval.Day)

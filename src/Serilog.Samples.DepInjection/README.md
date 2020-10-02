@@ -23,7 +23,7 @@
 
 3. Configure web host to ```UseSerilog``` ([reference](./Program.cs#L20-L22)):
 
-    ```bash
+    ```c#
     .UseSerilog((hostingContext, services, loggerConfiguration) => loggerConfiguration
         .Enrich.FromLogContext()
         .WriteTo.Console(new RenderedCompactJsonFormatter()));
