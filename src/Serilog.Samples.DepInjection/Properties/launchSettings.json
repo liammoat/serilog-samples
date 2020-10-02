@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Serilog.Samples.DepInjection": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
