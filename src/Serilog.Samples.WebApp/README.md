@@ -4,12 +4,7 @@
 
 * ASP.NET Core Web App
 * Uses ```Serilog.AspNetCore``` to get information about ASP.NET's internal operations written to the same Serilog sinks as your application events.
-
-**Serilog sinks:**
-
-* File - with compact JSON-based event format
-* Console
-* Application Insights
+* Uses ```Serilog.Sinks.ApplicationInsights``` to write events to Microsoft Application Insights.
 
 ## Setup
 
