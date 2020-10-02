@@ -23,6 +23,10 @@
 
 3. Configure web host to ```UseServiceProviderFactory``` ([reference](./Program.cs#L16)):
 
+    ```c#
+    .UseServiceProviderFactory(new AutofacServiceProviderFactory())
+    ```
+
 4. Configure web host to ```UseSerilog``` ([reference](./Program.cs#L21-L23)):
 
     ```c#
