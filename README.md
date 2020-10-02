@@ -7,3 +7,8 @@ A collection of sample projects using Serilog in .NET Core.
 2. [Logging with Microsoft.Extensions.Hosting](./src/Serilog.Samples.DepInjection)
 3. [Logging with Autofac](./src/Serilog.Samples.Autofac)
 4. [Shared common library](./src/shared)
+
+## License
+Copyright (c) 2020 Liam Moat
+
+Released under [the MIT license](https://github.com/liammoat/serilog-samples/blob/master/LICENCE).
