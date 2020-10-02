@@ -36,9 +36,9 @@
         .WriteTo.ApplicationInsights(new TelemetryClient(new TelemetryConfiguration("<ikey>")), new TraceTelemetryConverter()));
     ```
 
-    See [here](./Program.cs).
+    See [here](./Program.cs#L29-L33).
 
-4. Create some log output messages: See [here](./Pages/Index.cshtml.cs).
+4. Create some log output messages: See [here](./Pages/Index.cshtml.cs#L22-L39).
 
 5. Run the application:
 
