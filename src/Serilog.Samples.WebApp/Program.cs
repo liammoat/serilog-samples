@@ -28,7 +28,7 @@ namespace Serilog.Samples.WebApp
                 })
                 .UseSerilog((hostingContext, services, loggerConfiguration) => loggerConfiguration
                     .Enrich.FromLogContext()
-                    .WriteTo.ApplicationInsights(new TelemetryClient(new TelemetryConfiguration("c3ca17cc-59b2-4693-9d70-ef6be44c7fb7")), new TraceTelemetryConverter())
+                    .WriteTo.ApplicationInsights(new TelemetryClient(new TelemetryConfiguration("<ikey>")), new TraceTelemetryConverter())
                     .WriteTo.File(new CompactJsonFormatter(), "logs\\myapp.json", rollingInterval: RollingInterval.Day)
                     .WriteTo.Console());
     }
